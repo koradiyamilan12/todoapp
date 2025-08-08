@@ -1,0 +1,61 @@
+.alltodos-container {
+  max-width: 100%;
+  min-height: 100dvh;
+}
+
+.alltodos-warpper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+
+.alltodos-heading {
+  font-size: 2rem;
+}
+
+.line {
+  margin: 5px 0px;
+  width: 1080px;
+  height: 5px;
+  background-color: gold;
+}
+
+.todo-desc {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 16px;
+  margin: 10px;
+  width: 1080px;
+  border-radius: 8px;
+  align-items: center;
+}
+
+.status-pending {
+  padding: 10px 14px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: crimson;
+}
+
+.status-completed {
+  padding: 10px 14px;
+  color: #fff;
+  border-radius: 10px;
+  background-color: gold;
+}
+
+.loader {
+  margin-top: 200px;
+}
+
+.darkmodedesc {
+  background-color: black;
+  color: white;
+}
+
+.lightmodedesc {
+  background-color: white;
+  color: black;
+}
